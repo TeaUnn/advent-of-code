@@ -1,4 +1,4 @@
-### thanks to AdroMine for giving tips on Reddit
+### thanks to AdroMine for giving hints on Reddit
 
 setwd("/Users/tea/coding/advent-of-code/2022")
 
