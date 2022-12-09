@@ -1,6 +1,6 @@
 setwd("/Users/tea/coding/advent-of-code/2022")
 
-##### 04 #####
+##### 06 #####
 input <- readLines("input/06-input.txt")
 
 ### part 1

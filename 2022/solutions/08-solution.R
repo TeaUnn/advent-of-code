@@ -1,6 +1,6 @@
 setwd("/Users/tea/coding/advent-of-code/2022")
 
-##### 04 #####
+##### 08 #####
 input <- readLines("input/08-input.txt")
 inp_mat <- t(sapply(strsplit(input, ""), as.numeric))
 

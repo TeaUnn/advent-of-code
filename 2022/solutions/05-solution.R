@@ -1,8 +1,6 @@
-### thanks to AdroMine for giving hints on Reddit
-
 setwd("/Users/tea/coding/advent-of-code/2022")
 
-##### 04 #####
+##### 05 #####
 input <- readLines("input/05-input.txt")
 
 ### part 1
