@@ -27,13 +27,12 @@ print(find_possible_games(file_content, 12, 13, 14))
 
 ### second part
 def find_fewest_cubes(input):
-    bag = {'r':0, 'g':0, 'b':0}
-    power = []
+    power = 0
     for line in input:
+        bag = {'r':0, 'g':0, 'b':0}
         for num, col in re.findall(r'(\d+) (\w)', line):
             bag[col] = max(bag[col], int(num))
-        power.append(math.prod(bag.values()))
-        bag = {'r':0, 'g':0, 'b':0}
-    return sum(power)
+        power += (math.prod(bag.values()))
+    return power
 
 print(find_fewest_cubes(file_content))
